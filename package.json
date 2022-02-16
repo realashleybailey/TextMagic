@@ -1,0 +1,29 @@
+{
+  "name": "textmagic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --outDir ./dist --module commonjs",
+    "test": "ts-node ./src/test/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realashleybailey/TextMagic.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realashleybailey/TextMagic/issues"
+  },
+  "homepage": "https://github.com/realashleybailey/TextMagic#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^9.2.0"
+  }
+}
